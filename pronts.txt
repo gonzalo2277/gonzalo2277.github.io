@@ -1,0 +1,10 @@
+hola, necesito que me ayudes a crear una pagina web sobre una barberia.
+para empezar necesito una cabecera quiero con en el centro ponga de titulo el nombre de la barberia "BarberiaGonzalo" con una imagen que ocupe todo el fondo la imagen se encuentra en la carpeta fotos. Em el pie de pagina quiero que pongas bienvenido debajo pondrás esta es nuestra pagina web, aqui podras ver nuestros cortes, y poder cita para que te cortemos el pelo. (En chatgpt he pedido que me cree una imagen de una barberia moderna pero minimalista)
+
+tambien quiero que crees un menu en la parte superior dereccha de la pgaina con las siguintes opciones "sobre nosotros, fotos, reservar cita," en el menu donde dice pedir cita y cuando se pinche reservar cita nos mandara a otra pagina donde nos pondra un calendario con las fechas disponibles el cliente podra elegir la fecha y la hora que quiera y tendra 2 opciones corte de pelo que son 15€ o corte de pelo con barba que son 18€. tambien tendremos el boton de cancelar cita que cancelara la cita. 
+
+queiro que en la opcion de fotos me dirija a una pagina donde haya fotos de distintos cortes las pondrás las fotos cort1, corte2, corte3, corte4 que se encuentran en la carpeta fotos. agrega los nombres de corte1 (degradado medio texturizado), corte2 (mohicano), corte3 (buzz cut), corte 4 (corte a tijera de pelo largo)
+
+vale ahora quiero que en la opcion sobre nosotros pongas una descripcion de la barberia inventatelo pero es importante que digas que nos encontramos en granada en el centro comercial nevada shopping pon debajo un mapa donde se pueda ver la ubicacion del centro comercial. arriba del mapa pondra una imagen pequeña con el icono de instagram con el nombre BarberiaGonzalo al lado y que cuando se pinche en el nos dirija a instagram 
+
+Vale quiero que en la parte superior izquierda de la pagina de reservar cita hay una felcha para volver a la pagina principal
