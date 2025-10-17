@@ -10,3 +10,5 @@ vale ahora quiero que en la opcion sobre nosotros pongas una descripcion de la b
 Vale quiero que en la parte superior izquierda de la pagina de reservar cita hay una felcha para volver a la pagina principal
 
 En la pagina de sobre nosotros quiero que en el pie de pagina agregues un apartado sobre contactanos y crea un formulario que nos pregunte la direccion de correo electronico y un apartado de mensajes para que nos llegue e a nuestro correo barberiagonzalo@gmail.com. Y la parte de instagram con los  enlacen i el icono quiero que lo pongas debajo del  mapa 
+
+Creame un pequeño asistente que se encuentre en la parte inferior derecha que ayude al cliente le haga preguntas de lo que le haga falta y vaya recomendando cosas seria como una mini ia para la pagina web
