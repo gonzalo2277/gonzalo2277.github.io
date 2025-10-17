@@ -8,3 +8,5 @@ queiro que en la opcion de fotos me dirija a una pagina donde haya fotos de dist
 vale ahora quiero que en la opcion sobre nosotros pongas una descripcion de la barberia inventatelo pero es importante que digas que nos encontramos en granada en el centro comercial nevada shopping pon debajo un mapa donde se pueda ver la ubicacion del centro comercial. arriba del mapa pondra una imagen pequeña con el icono de instagram con el nombre BarberiaGonzalo al lado y que cuando se pinche en el nos dirija a instagram 
 
 Vale quiero que en la parte superior izquierda de la pagina de reservar cita hay una felcha para volver a la pagina principal
+
+En la pagina de sobre nosotros quiero que en el pie de pagina agregues un apartado sobre contactanos y crea un formulario que nos pregunte la direccion de correo electronico y un apartado de mensajes para que nos llegue e a nuestro correo barberiagonzalo@gmail.com. Y la parte de instagram con los  enlacen i el icono quiero que lo pongas debajo del  mapa 
