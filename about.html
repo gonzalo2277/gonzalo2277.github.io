@@ -25,14 +25,44 @@
 
       <p class="lead">En BarberiaGonzalo somos una barbería moderna situada en Granada, dentro del centro comercial Nevada Shopping. Nuestro equipo ofrece cortes personalizados, afeitado y arreglo de barba con atención al detalle y productos de alta calidad. Ven a visitarnos y disfruta de una experiencia cómoda y profesional.</p>
 
-      <a class="insta" href="https://www.instagram.com/BarberiaGonzalo" target="_blank" rel="noopener">
-        <img src="assets/fotos/ig.png" alt="Instagram" style="width:28px;height:28px;object-fit:contain;border-radius:4px" />
-        <span style="font-weight:700">@BarberiaGonzalo</span>
-      </a>
-
       <div class="map" style="height:420px;margin-top:12px">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.961463581805!2d-3.6264996847591994!3d37.18812987987316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71f4c9e6f7a4e9%3A0x86d2a0b5b3f5fb9c!2sNevada%20Shopping!5e0!3m2!1ses!2ses!4v1696970000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
+
+      <div style="margin-top:12px;display:flex;align-items:center;gap:10px">
+        <a class="insta" href="https://www.instagram.com/BarberiaGonzalo" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:8px;text-decoration:none;color:inherit">
+          <img src="assets/fotos/ig.png" alt="Instagram" style="width:28px;height:28px;object-fit:contain;border-radius:4px" />
+          <span style="font-weight:700;color:#fff">@BarberiaGonzalo</span>
+        </a>
+      </div>
+
+      <footer style="margin-top:28px;padding-top:18px;border-top:1px solid rgba(255,255,255,0.03)">
+        <h3>Contáctanos</h3>
+        <form id="contactForm" style="display:flex;flex-direction:column;gap:8px;max-width:540px">
+          <label style="color:#cbd5e1">Tu correo electrónico</label>
+          <input type="email" id="contactEmail" placeholder="tunombre@ejemplo.com" style="padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.04);background:#071012;color:#fff" required />
+          <label style="color:#cbd5e1">Mensaje</label>
+          <textarea id="contactMessage" rows="6" placeholder="Escribe tu mensaje aquí" style="padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.04);background:#071012;color:#fff" required></textarea>
+          <div style="display:flex;gap:10px;margin-top:6px">
+            <button type="submit" style="padding:10px 14px;border-radius:8px;border:none;background:#ff8a00;color:#071217;font-weight:700">Enviar mensaje</button>
+            <button type="button" id="contactClear" style="padding:10px 14px;border-radius:8px;border:none;background:#333;color:#fff">Limpiar</button>
+          </div>
+        </form>
+      </footer>
     </div>
+    <script>
+      const form = document.getElementById('contactForm');
+      const clearBtn = document.getElementById('contactClear');
+      form && form.addEventListener('submit', (e)=>{
+        e.preventDefault();
+        const email = document.getElementById('contactEmail').value.trim();
+        const msg = document.getElementById('contactMessage').value.trim();
+        if(!email || !msg){ alert('Por favor completa ambos campos'); return }
+        const subject = encodeURIComponent('Contacto desde Web - BarberiaGonzalo');
+        const body = encodeURIComponent('Correo: ' + email + '\n\nMensaje:\n' + msg);
+        window.location.href = `mailto:barberiagonzalo@gmail.com?subject=${subject}&body=${body}`;
+      });
+      clearBtn && clearBtn.addEventListener('click', ()=>{ document.getElementById('contactEmail').value=''; document.getElementById('contactMessage').value=''; });
+    </script>
   </body>
 </html>
