@@ -1,0 +1,19 @@
+/* Assistant widget styles */
+:root{--assist-bg:#0b1220;--assist-accent:#ff8a00;--assist-text:#e6eef8}
+.assistant-widget{position:fixed;right:18px;bottom:18px;width:340px;max-width:calc(100% - 36px);box-shadow:0 10px 30px rgba(2,6,23,0.6);border-radius:12px;overflow:hidden;font-family:Inter, system-ui, Arial;z-index:9999}
+.assistant-header{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;background:linear-gradient(90deg,var(--assist-accent),#ff5b4a);color:#071217}
+.assistant-title{font-weight:800}
+.assistant-close{background:transparent;border:none;color:inherit;font-weight:700;cursor:pointer}
+.assistant-body{background:var(--assist-bg);color:var(--assist-text);padding:12px;max-height:360px;overflow:auto}
+.assistant-messages{display:flex;flex-direction:column;gap:8px}
+.assistant-msg{padding:8px 10px;border-radius:10px;max-width:85%}
+.assistant-msg.system{background:rgba(255,255,255,0.03);align-self:flex-start}
+.assistant-msg.user{background:linear-gradient(90deg,rgba(255,138,0,0.12),rgba(255,138,0,0.06));align-self:flex-end}
+.assistant-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.assist-btn{padding:8px 10px;border-radius:8px;border:none;background:rgba(255,255,255,0.04);color:var(--assist-text);cursor:pointer;font-weight:700}
+.assist-btn.primary{background:var(--assist-accent);color:#071217}
+.assistant-input{display:flex;gap:8px;padding:10px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent)}
+.assistant-input input{flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--assist-text)}
+.assistant-input button{padding:10px 12px;border-radius:8px;border:none;background:var(--assist-accent);color:#071217;font-weight:800}
+.assistant-minimized{position:fixed;right:18px;bottom:18px;width:64px;height:64px;border-radius:999px;background:var(--assist-accent);display:flex;align-items:center;justify-content:center;color:#071217;font-weight:900;cursor:pointer;box-shadow:0 8px 20px rgba(2,6,23,0.6);z-index:9999}
+.assistant-small-note{font-size:12px;color:rgba(255,255,255,0.7);margin-top:6px}
