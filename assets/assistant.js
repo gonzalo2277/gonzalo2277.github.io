@@ -67,6 +67,10 @@
   function replyTo(text){
     const q = (text||'').toLowerCase();
 
+    // greetings
+    if(/^(hola|buenas|buenos d[ií]as|buenas tardes|buenas noches|hey)\b/.test(q)){
+      return pushSystemDelayed('¡Hola! ¿En qué puedo ayudarte?',400);
+    }
     // hair type / recommendation
     if(/rizado|rizos|rizo|curly/.test(q)){
       const reply = 'Si tienes el pelo rizado te recomiendo cortes que respeten la textura: por ejemplo un degradado corto con la parte superior ligeramente más larga y texturizada, o un corte a tijera en capas para definir los rizos. Evita cortes demasiado cortos en la parte superior si quieres volumen. También recomendamos usar una crema de peinar ligera o aceite para mantener la forma.';
