@@ -1,13 +1,12 @@
-// 1. Declaración de variables de varios tipos de datos
-let nombre = "Carlos";                 // String (Cadena de texto)
-let edad = 30;                         // Number (Entero)
-let temperatura = 21.5;                // Number (Decimal)
-let isActive = true;                   // Boolean (Booleano)
-let sinValor = undefined;              // Undefined (No definido)
-let datoNulo = null;                   // Null (Ausencia intencional de valor)
-let idUnico = Symbol("id");            // Symbol (Identificador único)
-let granNumero = 9007199254740991n;    // BigInt (Número entero muy grande)
-let usuario = {                        // Object (Objeto)
+let nombre = "Carlos";                 
+let edad = 30;                         
+let temperatura = 21.5;                
+let isActive = true;                   
+let sinValor = undefined;              
+let datoNulo = null;                   
+let idUnico = Symbol("id");            
+let granNumero = 9007199254740991n;    
+let usuario = {                        
     pais: "España",
     rol: "Administrador"
 };
@@ -22,7 +21,7 @@ console.info("Valor:", temperatura, "| Tipo:", typeof temperatura);
 console.log("--- DATOS ESTÁNDAR ---");
 console.log("Valor:", isActive, "| Tipo:", typeof isActive);
 console.log("Valor:", sinValor, "| Tipo:", typeof sinValor);
-console.log("Valor:", datoNulo, "| Tipo:", typeof datoNulo); // Curiosidad de JS: typeof null devuelve "object"
+console.log("Valor:", datoNulo, "| Tipo:", typeof datoNulo); 
 
 // 4. Uso de console.debug para detalles de depuración
 console.debug("--- DATOS DE DEPURACIÓN ---");
