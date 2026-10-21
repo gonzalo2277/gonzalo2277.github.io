@@ -1,12 +1,12 @@
 let persona = {
-    nombre: "Ana Gómez",                    
-    edad: 28,                               
-    altura: 1.68,                           
-    esEstudiante: false,                    
-    telefono: null,                         
-    correo: undefined,                      
-    idSeguridad: Symbol("id_seg"),          
-    deudaSocial: 5000000000000n,            
+    nombre: "Ana Gómez",
+    edad: 28,
+    altura: 1.68,
+    esEstudiante: false,
+    telefono: null,
+    correo: undefined,
+    idSeguridad: Symbol("id_seg"),
+    deudaSocial: 5000000000000n,
 
     hobbies: ["Fotografía", "Senderismo", "Lectura", "Ciclismo"],
 
